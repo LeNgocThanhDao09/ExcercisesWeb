@@ -1,0 +1,109 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Tahoma, Arial, sans-serif;
+    background-image: url("https://haycafe.vn/wp-content/uploads/2022/05/Hinh-nen-cute-mau-xanh-duong-may-dep.jpg");
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#page {
+    width: 100%;
+}
+
+#page #signIn #content {
+    position: absolute;
+    margin-left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page #signIn #content .container {
+    width: 280px;
+    height: 500px;
+    background-color: white;
+    margin: 100px auto;
+    border-radius: 5px;
+    padding: 75px 45px 25px;
+    text-align: center;
+}
+
+#page #signIn #content .container h3 {
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    color: blue;
+}
+
+#page #signIn .input .control input {
+    height: 53px;
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px #f1f1f1;
+    margin-bottom: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+#page #signIn .input .btn-SIn {
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    color: white;
+    border: none;
+    background-color: #18C4E2FF;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#page #signIn .input .btn-SIn:hover {
+    background-color: #18C4E2FF;
+}
+
+#page #content #loginWith {
+    text-align: center;
+    color: #b1b1b1;
+}
+
+#page #signIn #icon-socs {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#page #signIn #icon-socs div {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0px 0px 20px #A5A2A6FF;
+    display: inline-block;
+}
+
+#page #signIn #icon-socs .fa-facebook-f {
+    color: #4267b2;
+    font-size: 25px;
+    margin: 7px;
+}
+
+#page #signIn #icon-socs .fa-google {
+    color: #0F9D58 ;
+    font-size: 25px;
+    margin: 7px;
+}
+
+#page #signIn #content #signUp {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#page #signIn #content #signUp a {
+    margin-top: 50px;
+    text-decoration: none;
+    color: #8B878DA9;
+    font-size: 17px;
+}

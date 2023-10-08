@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Tahoma,Arial, sans-serif;
+    width: 100%;
+}
+#page{
+    width: 100%;
+    height: 700px;
+    background-color: #E6E6E6;
+}
+h3{
+    font-size: 25px;
+}
+#container{
+    width: 400px;
+    height: 550px;
+    margin: auto;
+}
+#container #content{
+    margin: auto;
+    height: 550px;
+    padding: 30px 25px  40px 55px;
+    background-color: #f4d8e2;
+    border-radius: 8px;
+}
+.header h3{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#page #container #content .input label{
+    display: block;
+    font-weight: bolder;
+    font-size: 10px;
+    color:#868783;
+}
+#page #container #content .input .input1{
+    width: 340px;
+    background-color: #f8b8ce;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid #f5f5f5;
+}
+#page #container #content .input .input1  input, textarea, select {
+    border: none;
+    background-color: #F7F7F7;
+    width: 340px;
+    color: #D6D8D9;
+    margin-top: 8px;
+}
+#page #container #content .input .input1 select {
+    color: black;
+}
+#page #container #content .input .input1 textarea {
+    height: 50px;
+    color:black;
+}
+#page #container #content .input .input2 {
+    height: 60px;
+    margin-bottom: 10px;
+    width: 366px;
+}
+#page #container #content .input .input2 input{
+    width: 145px;
+    border: none;
+    background-color: #F7F7F7;
+    margin-top: 8px;
+}
+#page #container #content .input .input2 .input2_left,.input2_right{
+    float: left;
+    clear: right;
+    width: 150px;
+    background-color: #f8b8ce;
+    margin-right: 10px;
+    padding:8px;
+    border-radius: 5px;
+    border: 3px solid #f5f5f5;
+}
+/*#page #container #content .input .input_2 .input2_right{*/
+/*    clear: left;*/
+/*    float: right;*/
+/*    width: 150px;*/
+/*    background-color: #f8b8ce;*/
+/*    padding: 8px;*/
+/*    border-radius: 5px;*/
+/*    border: 3px solid #f5f5f5;*/
+/*}*/
+#page #container #content .input .btn-submit{
+    border: none;
+    background-color: #ea90af;
+    color:white;
+    border-radius: 20px;
+    width: 360px;
+    padding: 9px 0;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#page #container #content .input .btn-submit:hover{
+    background-color: #f8b8ce ;
+}

@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #bb2d3b;
+}
+
+.rd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#randomGreeting {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai2</title>
+</head>
+<body>
+<h1>Giải phương trình bậc II</h1>
+
+<label for="a">Nhập giá trị a: </label>
+<input type="number" id="a">
+<br><br>
+
+<label for="b">Nhập giá trị b: </label>
+<input type="number" id="b">
+<br><br>
+
+<label for="c">Nhập giá trị c: </label>
+<input type="number" id="c">
+<br><br>
+
+<button onclick="giaiPhuongTrinh()">Giải</button>
+
+<p id="ketQua"></p>
+
+<script>
+    function giaiPhuongTrinh() {
+        const a = parseFloat(document.getElementById('a').value);
+        const b = parseFloat(document.getElementById('b').value);
+        const c = parseFloat(document.getElementById('c').value);
+        /* lấy giá trị của phần tử a và chuyển đổi nó thành một số dấu phẩy động */
+        const delta = b * b - 4 * a * c;
+
+        if (delta < 0) {
+            document.getElementById('ketQua').innerText = 'Phương trình vô nghiệm';
+        } else if (delta === 0) {
+            const x = -b / (2 * a);
+            document.getElementById('ketQua').innerText = `Phương trình có nghiệm kép: x = ${x}`;
+        } else {
+            const x1 = (-b + Math.sqrt(delta)) / (2 * a);
+            const x2 = (-b - Math.sqrt(delta)) / (2 * a);
+            document.getElementById('ketQua').innerText = `Phương trình có 2 nghiệm: x1 = ${x1}, x2 = ${x2}`;
+        }
+    }
+</script>
+</body>
+</html>
